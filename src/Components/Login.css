@@ -1,0 +1,119 @@
+/* Existing styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 19, 21);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.loginForm {
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 10%;
+    height: 100vh;
+}
+
+#email, #password {
+    background-color: #18181B;
+    color: rgb(162, 158, 158);
+    border: solid 1px grey;
+}
+
+#email:focus, #password:focus {
+    color: rgb(162, 158, 158);
+    outline: none;
+    box-shadow: none;
+}  
+#password::placeholder {
+    color: rgb(162, 158, 158);
+}
+#email::placeholder {
+    color: rgb(162, 158, 158);
+}
+#submitBtn {
+    width: 100%;
+    background-color: rgb(219, 25, 91);
+    border: none;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: rgb(200, 25, 91);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #777;
+    margin: 0 10px;
+}
+
+.divider span {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+label:where(.is-required):after {
+    content: "*";
+    color: red;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.fa-eye, .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(142, 141, 141);
+}
+
+/* Google Login button styles */
+.fa-brands{
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.auth-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.auth-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.separator {
+    height: 18px;
+    width: 1px;
+    background-color: #777;
+}
+
+
