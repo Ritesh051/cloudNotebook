@@ -6,7 +6,7 @@ import './Login.css';
 const Login = () => {
     const [credentials, setCredentials] = useState({ email: "", password: "" });
     const [showPassword, setShowPassword] = useState(false);
-    const clientID = "626564299693-oq31jjoh6lfvaucrhcgh1thclu377e1u.apps.googleusercontent.com";
+    const clientID = 'clientId';
     let navigate = useNavigate();
 
     const togglePasswordVisibility = () => {

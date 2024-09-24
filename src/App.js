@@ -9,7 +9,7 @@ import Signup from './Components/Signup';
 import { useEffect } from 'react';
 import { gapi } from 'gapi-script';
 
-const clientID = "626564299693-oq31jjoh6lfvaucrhcgh1thclu377e1u.apps.googleusercontent.com";
+const clientID = "clientID";
 
 function App() {
   useEffect(() => {
