@@ -35,10 +35,10 @@
 cloudnotebook/
 │
 ├── backend/                   # Node.js backend code
-│   ├── Middlewares/           # Middlewares files ( containes : FetchUser)
+│   ├── Middlewares/           # Middleware files (contains: FetchUser)
 │   ├── models/                # MongoDB models
 │   ├── routes/                # Express routes
-│   └── db.js                  # Database Connection
+│   ├── db.js                  # Database connection
 │   └── index.js               # Main entry point of the backend
 │
 ├── frontend/                  # React.js frontend code
